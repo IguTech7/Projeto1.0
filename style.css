@@ -1,0 +1,220 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #004080;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+section img {
+  max-width: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+form input, form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #004080;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0066cc;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+#reflexao {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #eef3f7;
+}
+
+#reflexao h2 {
+  font-size: 2em;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+#reflexao p {
+  max-width: 750px;
+  margin: 15px auto;
+  color: #333;
+  font-size: 1.05em;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.etapas {
+  padding: 60px 20px;
+  background-color: #f7f9fc;
+  text-align: center;
+}
+
+.etapas h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.cards-etapas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 25px;
+  width: 260px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card h3 {
+  color: #0056b3;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #555;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.sobre {
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.sobre-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.sobre-imagem img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.sobre-imagem img:hover {
+  transform: scale(1.05);
+}
+
+.sobre-texto {
+  max-width: 500px;
+  text-align: justify;
+}
+
+.sobre-texto h2 {
+  color: #0056b3;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.sobre-texto p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
