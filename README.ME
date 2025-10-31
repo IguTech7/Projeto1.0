@@ -33,4 +33,4 @@ O site contém:
 ## 🚀 Como Visualizar
 1. Baixe o repositório:
    ```bash
-   git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+   git clone https://github.com/IguTech7/teste-git.git
